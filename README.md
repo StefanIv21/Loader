@@ -1,7 +1,7 @@
-# Skeleton for building a ELF loader
+# Program for building a ELF loader
 
 ## Introduction
-This project contains a skeleton for building an
+This project contains a program for building an
 [ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) binary
 on-demand loader in Linux. The loader will provide two methods, defined in the
 `loader.h` header:
@@ -48,8 +48,7 @@ This should generate the `so_exec` and `so_test_prog` used for the test:
 LD_LIBRARY_PATH=. ./so_exec so_test_prog
 ```
 
-**NOTE:** the skeleton does not have the loader implemented, thus when running
-the command above, your program will crash!
+
 
 ## Notes
 This skeleton is provided by the Operating System team from the University
